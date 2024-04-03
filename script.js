@@ -1,20 +1,19 @@
 let btn = document.querySelectorAll(".btn");
 let shop = document.querySelector("#ShoppinCard");
 let ahmed = document.querySelector(".ahmed");
-let home = document.querySelector("#home");
-let Contacts = document.querySelector("#Contacts");
-let About = document.querySelector("#About");
-let Categories = document.querySelector("#Categories");
-
 let shoppingCart = [];
 
-let deploying = (btn)=>{
+let home = document.querySelectorAll(".home");
 
-  btn.addEventListener("click", () => {
-    alert("this Page under updtate")
-  }
-  
-)}
+function deploying() {
+  home.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      alert("this Page under updtate");
+      console.log("first page");
+    });
+  });
+}
+deploying()
 
 deploying(home);
 deploying(Contacts);
