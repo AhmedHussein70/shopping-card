@@ -16,10 +16,10 @@ let deploying = (btn)=>{
   
 }
 
-deploying(home)
-deploying(Contacts)
-deploying(About)
-deploying(Categories)
+deploying(home);
+deploying(Contacts);
+deploying(About);
+deploying(Categories);
 
 function saveCardData() {
   localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
