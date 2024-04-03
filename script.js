@@ -15,10 +15,6 @@ function deploying() {
 }
 deploying()
 
-deploying(home);
-deploying(Contacts);
-deploying(About);
-deploying(Categories);
 
 function saveCardData() {
   localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
