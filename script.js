@@ -2,6 +2,10 @@ let btn = document.querySelectorAll(".btn");
 let shop = document.querySelector("#ShoppinCard");
 let ahmed = document.querySelector(".ahmed");
 let home = document.querySelector("#home");
+let Contacts = document.querySelector("#home");
+let About = document.querySelector("#home");
+let Categories = document.querySelector("#home");
+
 let shoppingCart = [];
 
 let deploying = (btn)=>{
@@ -13,9 +17,9 @@ let deploying = (btn)=>{
 }
 
 deploying(home)
-deploying(home)
-deploying(home)
-deploying(home)
+deploying(Contacts)
+deploying(About)
+deploying(Categories)
 
 function saveCardData() {
   localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
