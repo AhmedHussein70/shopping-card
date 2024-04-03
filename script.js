@@ -2,9 +2,9 @@ let btn = document.querySelectorAll(".btn");
 let shop = document.querySelector("#ShoppinCard");
 let ahmed = document.querySelector(".ahmed");
 let home = document.querySelector("#home");
-let Contacts = document.querySelector("#home");
-let About = document.querySelector("#home");
-let Categories = document.querySelector("#home");
+let Contacts = document.querySelector("#Contacts");
+let About = document.querySelector("#About");
+let Categories = document.querySelector("#Categories");
 
 let shoppingCart = [];
 
