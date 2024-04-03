@@ -14,7 +14,7 @@ let deploying = (btn)=>{
     alert("this Page under updtate")
   }
   
-}
+)}
 
 deploying(home);
 deploying(Contacts);
