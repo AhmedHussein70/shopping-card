@@ -1,7 +1,21 @@
 let btn = document.querySelectorAll(".btn");
 let shop = document.querySelector("#ShoppinCard");
 let ahmed = document.querySelector(".ahmed");
+let home = document.querySelector("#home");
 let shoppingCart = [];
+
+let deploying = (btn)=>{
+
+  btn.addEventListener("click", () => {
+    alert("this Page under updtate")
+  }
+  
+}
+
+deploying(home)
+deploying(home)
+deploying(home)
+deploying(home)
 
 function saveCardData() {
   localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
@@ -71,3 +85,4 @@ btn.forEach((element, index) => {
 shop.addEventListener("click", () => {
   ahmed.classList.toggle("ttt");
 });
+
